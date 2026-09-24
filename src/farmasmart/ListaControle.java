@@ -1,0 +1,11 @@
+package farmasmart;
+
+public enum ListaControle {
+  A1,
+  A2,
+  A3,
+  B1,
+  B2,
+  C1,
+  C2
+}
