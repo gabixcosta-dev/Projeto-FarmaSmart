@@ -1,4 +1,4 @@
-package modelo;
+package farmasmart;
  
 public enum FormaPagamento {
     DINHEIRO,
