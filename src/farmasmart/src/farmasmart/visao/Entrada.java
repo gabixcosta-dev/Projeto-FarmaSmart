@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
-/** Leitura segura do teclado: repete a pergunta enquanto o valor digitado for inválido. */
 public class Entrada {
 
     private final Scanner scanner = new Scanner(System.in);
