@@ -36,7 +36,6 @@ public class Receita {
         this.prazoValidadeDias = prazoValidadeDias;
     }
  
-    /** A receita cria o próprio item (composição) — informe o princípio ativo prescrito. */
     public void adicionarItem(String principioAtivo, int quantidade) {
         itens.add(new ItemReceita(principioAtivo, quantidade));
     }
@@ -45,7 +44,6 @@ public class Receita {
         return dataEmissao.plusDays(prazoValidadeDias);
     }
  
-    /** REQ15: válida dentro do prazo, com pelo menos um item e algum saldo restante. */
     public boolean isValida(LocalDate hoje) {
         boolean dentroDoPrazo = !hoje.isBefore(dataEmissao) && !hoje.isAfter(getDataLimite());
         boolean temSaldo = false;
@@ -58,10 +56,7 @@ public class Receita {
         return dentroDoPrazo && !itens.isEmpty() && temSaldo;
     }
  
-    /**
-     * A receita cobre a compra se: está válida, o tipo de receita é aceito
-     * pelo medicamento, o princípio ativo consta nela e há saldo suficiente.
-     */
+
     public boolean cobre(Medicamento medicamento, int quantidade, LocalDate hoje) {
         if (!isValida(hoje)) {
             return false;
@@ -73,7 +68,6 @@ public class Receita {
         return item != null && quantidade <= item.getQuantidadeRestante();
     }
  
-    /** Package-private: só Venda (mesmo pacote) baixa o saldo da receita. */
     void registrarDispensacao(Medicamento medicamento, int quantidade) {
         ItemReceita item = buscarItem(medicamento.getPrincipioAtivo());
         if (item == null) {
@@ -98,6 +92,5 @@ public class Receita {
     public Cliente getCliente() { return cliente; }
     public Medico getMedico() { return medico; }
     public int getQuantidadeItens() { return itens.size(); }
-    // ItemReceita é package-private, então a lista de itens não é exposta publicamente.
 }
  
