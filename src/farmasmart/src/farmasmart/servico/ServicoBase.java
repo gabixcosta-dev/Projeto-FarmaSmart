@@ -4,11 +4,6 @@ import java.util.List;
 
 import farmasmart.repositorio.Repositorio;
 
-/**
- * Classe ABSTRATA que implementa o CRUD uma única vez usando o padrão
- * Template Method: o fluxo é fixo (validar -> checar existência -> persistir)
- * e cada serviço concreto só preenche os "ganchos" com as suas regras.
- */
 public abstract class ServicoBase<T, ID> implements Servico<T, ID> {
 
     protected final Repositorio<T, ID> repositorio;
@@ -19,23 +14,22 @@ public abstract class ServicoBase<T, ID> implements Servico<T, ID> {
         this.nomeEntidade = nomeEntidade;
     }
 
-    // ------------------ ganchos que cada serviço implementa ------------------
 
     protected abstract ID obterId(T entidade);
 
     /** Valida os dados da entidade; lança RegraDeNegocioException se inválida. */
     protected abstract void validar(T entidade);
 
-    /** Regras que impedem a exclusão (padrão: nenhuma). */
+    /** Regras que impedem a exclusão. */
     protected void validarExclusao(T entidade) {
     }
 
-    /** Permite ajustar o objeto novo antes de substituir o antigo (padrão: usa o novo). */
+    /** Permite ajustar o objeto novo antes de substituir o antigo. */
     protected T aoAtualizar(T antigo, T novo) {
         return novo;
     }
 
-    // ------------------------------ CRUD pronto ------------------------------
+    // CRUD pronto 
 
     @Override
     public T cadastrar(T entidade) {
@@ -72,7 +66,7 @@ public abstract class ServicoBase<T, ID> implements Servico<T, ID> {
         repositorio.remover(id);
     }
 
-    // --------------------------- utilitários de validação ---------------------------
+    // utilitários de validação
 
     protected static void exigirTexto(String valor, String campo) {
         if (valor == null || valor.isBlank()) {
