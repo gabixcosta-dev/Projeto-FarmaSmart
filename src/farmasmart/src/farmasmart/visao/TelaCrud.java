@@ -5,11 +5,7 @@ import java.util.List;
 import farmasmart.servico.RegraDeNegocioException;
 import farmasmart.servico.Servico;
 
-/**
- * Classe ABSTRATA com o menu de CRUD completo (listar, buscar, cadastrar,
- * atualizar, excluir). Cada tela concreta só diz COMO ler e COMO mostrar
- * a sua entidade. A tela depende apenas da interface Servico.
- */
+
 public abstract class TelaCrud<T, ID> {
 
     protected final Servico<T, ID> servico;
@@ -20,7 +16,6 @@ public abstract class TelaCrud<T, ID> {
         this.entrada = entrada;
     }
 
-    // ------------------ ganchos que cada tela implementa ------------------
 
     public abstract String titulo();
 
@@ -41,7 +36,7 @@ public abstract class TelaCrud<T, ID> {
         return false;
     }
 
-    // ------------------------------ menu pronto ------------------------------
+    // ------------------------------ menu  ------------------------------
 
     public final void executar() {
         while (true) {
