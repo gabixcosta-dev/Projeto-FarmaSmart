@@ -4,17 +4,17 @@ import java.time.LocalDate;
  
 public class MedicamentoControlado extends Medicamento {
  
-    private ListaControle listaControle;
+    private NivelRisco nivelRisco;
  
     public MedicamentoControlado(String id, String nome, String principioAtivo, double preco,
                                   int quantidadeEstoque, LocalDate dataValidade,
-                                  ListaControle listaControle) {
+                                  NivelRisco nivelRisco) {
         super(id, nome, principioAtivo, preco, quantidadeEstoque, dataValidade);
-        this.listaControle = listaControle;
+        this.nivelRisco = nivelRisco;
     }
  
-    public ListaControle getListaControle() {
-        return listaControle;
+    public NivelRisco getNivelRisco() {
+        return nivelRisco;
     }
  
     @Override
@@ -24,7 +24,7 @@ public class MedicamentoControlado extends Medicamento {
  
     @Override
     public boolean aceitaTipoReceita(TipoReceita tipo) {
-        switch (listaControle) {
+        switch (nivelRisco) {
             case A1:
             case A2:
             case A3:
