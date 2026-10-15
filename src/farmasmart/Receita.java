@@ -1,4 +1,4 @@
-package modelo;
+package farmasmart;
  
 import java.time.LocalDate;
 import java.util.ArrayList;
