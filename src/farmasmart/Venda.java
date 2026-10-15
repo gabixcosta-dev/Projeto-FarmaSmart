@@ -38,7 +38,6 @@ public class Venda {
         this.receita = receita;
     }
  
-    /** Valida ANTES de incluir o item. */
     public void adicionarItem(Medicamento medicamento, int quantidade) {
         exigirAberta();
         if (medicamento == null) {
@@ -69,7 +68,6 @@ public class Venda {
         return total;
     }
  
-    /** Revalida tudo, baixa estoque e dá baixa no saldo da receita. */
     public void finalizar(FormaPagamento forma) {
         exigirAberta();
         if (itens.isEmpty()) {
@@ -79,12 +77,10 @@ public class Venda {
             throw new IllegalArgumentException("Forma de pagamento é obrigatória.");
         }
  
-        // 1ª passada: só valida (nada é alterado se algo falhar)
         for (ItemVenda i : itens) {
             validarElegibilidade(i.getMedicamento(), i.getQuantidade(),
                     quantidadePorPrincipioAtivo(i.getMedicamento().getPrincipioAtivo()));
         }
-        // 2ª passada: efetiva
         for (ItemVenda i : itens) {
             i.getMedicamento().baixaEstoque(i.getQuantidade());
             if (i.getMedicamento().exigeReceita()) {
