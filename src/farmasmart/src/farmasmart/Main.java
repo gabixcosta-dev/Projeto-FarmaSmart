@@ -21,10 +21,6 @@ import farmasmart.visao.TelaMedico;
 import farmasmart.visao.TelaReceita;
 import farmasmart.visao.TelaVenda;
 
-/**
- * Único lugar que conhece as classes concretas: monta as camadas de baixo
- * para cima (repositório -> serviço -> visão) e injeta cada uma na seguinte.
- */
 public class Main {
 
     public static void main(String[] args) {
