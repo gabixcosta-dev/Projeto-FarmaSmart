@@ -1,4 +1,4 @@
-package modelo;
+package farmasmart;
  
 class ItemReceita {
  
