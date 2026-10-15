@@ -1,4 +1,4 @@
-ackage modelo;
+package farmsmart;
  
 import java.math.BigDecimal;
 import java.time.LocalDate;
