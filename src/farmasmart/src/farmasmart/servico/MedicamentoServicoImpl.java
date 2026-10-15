@@ -57,7 +57,7 @@ public class MedicamentoServicoImpl extends ServicoBase<Medicamento, String> imp
         return novo;
     }
 
-    /** REQ20: medicamento que já tem venda registrada não pode ser excluído. */
+    /**med que já tem venda registrada não pode ser excluído. */
     @Override
     protected void validarExclusao(Medicamento m) {
         if (!vendas.buscarPorMedicamento(m).isEmpty()) {
