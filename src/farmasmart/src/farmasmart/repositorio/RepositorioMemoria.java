@@ -6,16 +6,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-/**
- * Classe ABSTRATA com todo o CRUD em memória escrito uma única vez.
- * Cada repositório concreto só precisa dizer como obter o id da entidade
- * (e, se quiser, acrescentar consultas específicas).
- */
+
 public abstract class RepositorioMemoria<T, ID> implements Repositorio<T, ID> {
 
     protected final Map<ID, T> dados = new LinkedHashMap<>();
 
-    /** Único ponto que muda de uma entidade para outra. */
     protected abstract ID obterId(T entidade);
 
     @Override
