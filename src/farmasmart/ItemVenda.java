@@ -1,7 +1,7 @@
-package modelo;
+package farmasmart;
  
 import java.math.BigDecimal;
- 
+
 class ItemVenda {
  
     private Medicamento medicamento;
