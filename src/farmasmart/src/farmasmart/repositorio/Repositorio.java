@@ -3,13 +3,7 @@ package farmasmart.repositorio;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Contrato genérico de persistência (CRUD). A camada de serviço só conhece
- * esta interface, nunca a implementação concreta (memória, arquivo, banco...).
- *
- * @param <T>  tipo da entidade
- * @param <ID> tipo do identificador
- */
+
 public interface Repositorio<T, ID> {
 
     /** CREATE */
