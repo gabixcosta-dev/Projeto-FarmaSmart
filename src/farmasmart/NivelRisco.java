@@ -1,6 +1,6 @@
 package farmasmart;
 
-public enum ListaControle {
+public enum NivelRisco {
   A1,
   A2,
   A3,
