@@ -2,18 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="removendo pastas duplicadas">
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Farmaceutico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/ListaControle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Medicamento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/MedicamentoComum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/MedicamentoControlado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/MedicamentoGenerico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Medico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/StatusValidacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/ValidacaoSanitaria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Farmaceutico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/FormaPagamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/ItemReceita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/ItemVenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Medicamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/MedicamentoComum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/MedicamentoControlado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/MedicamentoGenerico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Medico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/NivelRisco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Receita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/StatusValidacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/StatusVenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/TipoReceita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/ValidacaoSanitaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Venda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/ClienteRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/ClienteRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/FarmaceuticoRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/MedicamentoRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/MedicamentoRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/MedicoRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/ReceitaRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/ReceitaRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/Repositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/RepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/VendaRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/repositorio/VendaRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/ClienteServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/EntidadeNaoEncontradaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/FarmaceuticoServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/MedicamentoServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/MedicamentoServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/MedicoServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/ReceitaServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/RegraDeNegocioException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/Servico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/ServicoBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/VendaServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/servico/VendaServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/Entrada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/MenuPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/TelaCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/TelaCrud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/TelaFarmaceutico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/TelaMedicamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/TelaMedico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/TelaReceita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/src/farmasmart/visao/TelaVenda.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +70,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Crud" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -51,22 +98,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Crud",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
