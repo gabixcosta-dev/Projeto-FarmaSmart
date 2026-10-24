@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="removendo pastas duplicadas" />
+    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="removendo pastas duplicadas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Farmaceutico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormaPagamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ItemReceita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ItemVenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medicamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedicamentoComum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedicamentoControlado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MedicamentoGenerico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NivelRisco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Receita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatusValidacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatusVenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TipoReceita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ValidacaoSanitaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Venda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/ClienteRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/ClienteRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/FarmaceuticoRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicamentoRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicamentoRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicoRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/ReceitaRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/ReceitaRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/Repositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/RepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/VendaRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/VendaRepositorioMemoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/ClienteServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/EntidadeNaoEncontradaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/FarmaceuticoServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/MedicamentoServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/MedicamentoServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/MedicoServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/ReceitaServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/RegraDeNegocioException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/Servico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/ServicoBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/VendaServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servico/VendaServicoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/Entrada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/MenuPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/TelaCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/TelaCrud.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/TelaFarmaceutico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/TelaMedicamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/TelaMedico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/TelaReceita.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visao/TelaVenda.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +113,11 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="Crud" />
+    </force-push-targets>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
