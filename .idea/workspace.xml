@@ -1,65 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="removendo pastas duplicadas">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Farmaceutico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FormaPagamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItemReceita.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItemVenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medicamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MedicamentoComum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MedicamentoControlado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MedicamentoGenerico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Medico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NivelRisco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Receita.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StatusValidacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StatusVenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TipoReceita.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValidacaoSanitaria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Venda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/ClienteRepositorio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/ClienteRepositorioMemoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/FarmaceuticoRepositorioMemoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicamentoRepositorio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicamentoRepositorioMemoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicoRepositorioMemoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/ReceitaRepositorio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/ReceitaRepositorioMemoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/Repositorio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/RepositorioMemoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/VendaRepositorio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/VendaRepositorioMemoria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/ClienteServicoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/EntidadeNaoEncontradaException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/FarmaceuticoServicoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/MedicamentoServico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/MedicamentoServicoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/MedicoServicoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/ReceitaServicoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/RegraDeNegocioException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/Servico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/ServicoBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/VendaServico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servico/VendaServicoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/Entrada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/MenuPrincipal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/TelaCliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/TelaCrud.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/TelaFarmaceutico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/TelaMedicamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/TelaMedico.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/TelaReceita.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visao/TelaVenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/ItemReceita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmasmart/ItemReceita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmasmart/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Receita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmasmart/Receita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/farmasmart/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmasmart/Venda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/luann/IdeaProjects/Projeto-FarmaSmart" value="3LoMigUFXOGLhfW9cwTHHTWGOlS" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,41 +49,81 @@
     &quot;assignee&quot;: &quot;gabixcosta-dev&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gabixcosta-dev/Projeto-FarmaSmart.git&quot;,
-    &quot;accountId&quot;: &quot;e5c368d3-90ad-48f7-a769-c54d16441880&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/gabixcosta-dev/Projeto-FarmaSmart.git",
+    "accountId": "8d0a5ed2-8583-4dd8-8d94-89469847d2e6"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3Jm7bHSnneX8AsCnpmUTrD4eoYI" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="ensembleEnabled" value="false" />
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Crud&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "Crud",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="Crud" />
     </force-push-targets>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="farmasmart.Main" />
+      <module name="farmasmart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="farmasmart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -142,5 +149,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removendo pastas duplicadas" />
     <option name="LAST_COMMIT_MESSAGE" value="removendo pastas duplicadas" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/farmasmart/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/farmasmart/Main.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

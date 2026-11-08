@@ -1,5 +1,15 @@
 # Sistema FarmaSmart
 
+## Executar a aplicação
+
+A interface gráfica utiliza JavaFX 21 e Maven. Com o JDK 21 ou superior instalado, execute na raiz do projeto:
+
+```bash
+mvn javafx:run
+```
+
+O Maven baixa as dependências JavaFX definidas em `pom.xml`.
+
 ## Requisitos Funcionais
 
 ### 1. Cadastro de Medicamentos

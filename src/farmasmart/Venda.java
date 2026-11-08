@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
  
 public class Venda {
 
@@ -178,6 +179,12 @@ public class Venda {
 
     public int getQuantidadeItens() {
         return itens.size();
+    }
+
+    public List<String> getResumoItens() {
+        return itens.stream()
+                .map(item -> item.getMedicamento().getNome() + " × " + item.getQuantidade())
+                .collect(Collectors.toList());
     }
 
     public boolean contemMedicamento(Medicamento medicamento) {

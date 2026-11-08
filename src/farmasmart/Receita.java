@@ -2,6 +2,7 @@ package farmasmart;
  
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Receita {
@@ -38,6 +39,14 @@ public class Receita {
  
     public void adicionarItem(String principioAtivo, int quantidade) {
         itens.add(new ItemReceita(principioAtivo, quantidade));
+    }
+
+    public Receita revisarCadastro(Cliente cliente, Medico medico, LocalDate dataEmissao, TipoReceita tipo) {
+        Receita revisada = new Receita(id, cliente, medico, dataEmissao, tipo, prazoValidadeDias);
+        for (ItemReceita item : itens) {
+            revisada.itens.add(item.copiar());
+        }
+        return revisada;
     }
  
     public LocalDate getDataLimite() {
@@ -92,5 +101,6 @@ public class Receita {
     public Cliente getCliente() { return cliente; }
     public Medico getMedico() { return medico; }
     public int getQuantidadeItens() { return itens.size(); }
+    public List<ItemReceita> getItens() { return Collections.unmodifiableList(itens); }
 }
  

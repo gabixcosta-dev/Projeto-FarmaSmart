@@ -12,19 +12,17 @@ import farmasmart.servico.MedicamentoServicoImpl;
 import farmasmart.servico.MedicoServicoImpl;
 import farmasmart.servico.ReceitaServicoImpl;
 import farmasmart.servico.VendaServicoImpl;
-import farmasmart.visao.Entrada;
-import farmasmart.visao.MenuPrincipal;
-import farmasmart.visao.TelaCliente;
-import farmasmart.visao.TelaFarmaceutico;
-import farmasmart.visao.TelaMedicamento;
-import farmasmart.visao.TelaMedico;
-import farmasmart.visao.TelaReceita;
-import farmasmart.visao.TelaVenda;
+import farmasmart.visao.FarmaSmartController;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-public class Main {
+public class Main extends Application {
 
-    public static void main(String[] args) {
-        // Camada de repositório
+    @Override
+    public void start(Stage stage) throws Exception {
         MedicamentoRepositorioMemoria repMedicamentos = new MedicamentoRepositorioMemoria();
         ClienteRepositorioMemoria repClientes = new ClienteRepositorioMemoria();
         MedicoRepositorioMemoria repMedicos = new MedicoRepositorioMemoria();
@@ -32,7 +30,6 @@ public class Main {
         ReceitaRepositorioMemoria repReceitas = new ReceitaRepositorioMemoria();
         VendaRepositorioMemoria repVendas = new VendaRepositorioMemoria();
 
-        // Camada de serviço
         MedicamentoServicoImpl srvMedicamentos = new MedicamentoServicoImpl(repMedicamentos, repVendas);
         ClienteServicoImpl srvClientes = new ClienteServicoImpl(repClientes, repVendas, repReceitas);
         MedicoServicoImpl srvMedicos = new MedicoServicoImpl(repMedicos, repReceitas);
@@ -41,15 +38,20 @@ public class Main {
         VendaServicoImpl srvVendas = new VendaServicoImpl(repVendas, repFarmaceuticos, repClientes,
                 repMedicamentos, repReceitas);
 
-        // Camada de visão
-        Entrada entrada = new Entrada();
-        new MenuPrincipal(entrada,
-                new TelaMedicamento(srvMedicamentos, entrada),
-                new TelaCliente(srvClientes, entrada),
-                new TelaMedico(srvMedicos, entrada),
-                new TelaFarmaceutico(srvFarmaceuticos, entrada),
-                new TelaReceita(srvReceitas, srvClientes, srvMedicos, entrada),
-                new TelaVenda(srvVendas, srvFarmaceuticos, srvClientes, entrada)
-        ).executar();
+        FXMLLoader loader = new FXMLLoader(Main.class.getResource("/farmasmart/visao/principal.fxml"));
+        Parent root = loader.load();
+        FarmaSmartController controller = loader.getController();
+        controller.configurar(srvClientes, srvFarmaceuticos, srvMedicos, srvMedicamentos, srvReceitas, srvVendas);
+
+        Scene scene = new Scene(root, 1280, 800);
+        stage.setTitle("FarmaSmart | Gestão farmacêutica");
+        stage.setMinWidth(980);
+        stage.setMinHeight(680);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }
