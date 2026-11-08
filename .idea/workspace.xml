@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="removendo pastas duplicadas">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmasmart/ItemReceita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmasmart/ItemReceita.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmasmart/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmasmart/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmasmart/Receita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmasmart/Receita.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/farmasmart/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/farmasmart/Venda.java" afterDir="false" />
-    </list>
+    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="att GUI" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +78,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "Crud",
+    "git-widget-placeholder": "GUI",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main",
     "node.js.detected.package.jshint": "true",
@@ -148,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removendo pastas duplicadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="removendo pastas duplicadas" />
+    <MESSAGE value="att GUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="att GUI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
