@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="telass" />
+    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="telass">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "copilot.chat.legacySessionMetadata.migrated": "true",
-    "git-widget-placeholder": "GUI",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main",
     "node.js.detected.package.jshint": "true",
@@ -142,5 +145,17 @@
     <MESSAGE value="removendo pastas duplicadas" />
     <MESSAGE value="telass" />
     <option name="LAST_COMMIT_MESSAGE" value="telass" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/out/production/Projeto-FarmaSmart-main/farmasmart/Main.class</url>
+          <line>43</line>
+          <placement>INTER_LINE</placement>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
