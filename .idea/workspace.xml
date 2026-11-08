@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="removendo pastas duplicadas">
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Farmaceutico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/ListaControle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Medicamento.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/MedicamentoComum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/MedicamentoControlado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/MedicamentoGenerico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Medico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/StatusValidacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projeto-FarmaSmart-master/farmasmart/ValidacaoSanitaria.class" beforeDir="false" />
-    </list>
+    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="telass" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/luann/IdeaProjects/Projeto-FarmaSmart" value="3LpuYfmochIKEHsr0fLhZDD4iLP" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -39,7 +39,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/gabixcosta-dev/Projeto-FarmaSmart.git&quot;,
-    &quot;accountId&quot;: &quot;e5c368d3-90ad-48f7-a769-c54d16441880&quot;
+    &quot;accountId&quot;: &quot;8d0a5ed2-8583-4dd8-8d94-89469847d2e6&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -47,26 +47,65 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3Jm7bHSnneX8AsCnpmUTrD4eoYI" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="ensembleEnabled" value="false" />
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "GUI",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="25" />
+      <option name="MAIN_CLASS_NAME" value="farmasmart.Main" />
+      <module name="farmasmart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="farmasmart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,8 +127,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removendo pastas duplicadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="removendo pastas duplicadas" />
+    <MESSAGE value="telass" />
+    <option name="LAST_COMMIT_MESSAGE" value="telass" />
   </component>
 </project>

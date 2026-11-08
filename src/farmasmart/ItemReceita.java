@@ -1,6 +1,6 @@
 package farmasmart;
  
-class ItemReceita {
+public class ItemReceita {
  
     private String principioAtivo;
     private int quantidadePrescrita;
@@ -24,20 +24,26 @@ class ItemReceita {
         this.quantidadeDispensada += quantidade;
     }
  
-    int getQuantidadeRestante() {
+    public int getQuantidadeRestante() {
         return quantidadePrescrita - quantidadeDispensada;
     }
  
-    String getPrincipioAtivo() {
+    public String getPrincipioAtivo() {
         return principioAtivo;
     }
  
-    int getQuantidadePrescrita() {
+    public int getQuantidadePrescrita() {
         return quantidadePrescrita;
     }
  
-    int getQuantidadeDispensada() {
+    public int getQuantidadeDispensada() {
         return quantidadeDispensada;
+    }
+
+    ItemReceita copiar() {
+        ItemReceita copia = new ItemReceita(principioAtivo, quantidadePrescrita);
+        copia.quantidadeDispensada = quantidadeDispensada;
+        return copia;
     }
 }
  
