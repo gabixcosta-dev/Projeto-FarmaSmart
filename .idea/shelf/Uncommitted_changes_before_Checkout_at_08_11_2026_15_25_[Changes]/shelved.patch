@@ -1,0 +1,113 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2609e78f-da8d-4ee7-b911-93a0de496c0f\" name=\"Changes\" comment=\"removendo pastas duplicadas\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Cliente.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Farmaceutico.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/FormaPagamento.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ItemReceita.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ItemVenda.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Medicamento.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/MedicamentoComum.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/MedicamentoControlado.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/MedicamentoGenerico.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Medico.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/NivelRisco.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Pessoa.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Receita.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/StatusValidacao.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/StatusVenda.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/TipoReceita.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ValidacaoSanitaria.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Venda.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/ClienteRepositorio.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/ClienteRepositorioMemoria.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/FarmaceuticoRepositorioMemoria.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/MedicamentoRepositorio.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/MedicamentoRepositorioMemoria.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/MedicoRepositorioMemoria.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/ReceitaRepositorio.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/ReceitaRepositorioMemoria.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/Repositorio.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/RepositorioMemoria.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/VendaRepositorio.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/repositorio/VendaRepositorioMemoria.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/ClienteServicoImpl.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/EntidadeNaoEncontradaException.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/FarmaceuticoServicoImpl.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/MedicamentoServico.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/MedicamentoServicoImpl.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/MedicoServicoImpl.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/ReceitaServicoImpl.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/RegraDeNegocioException.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/Servico.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/ServicoBase.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/VendaServico.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/servico/VendaServicoImpl.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/Entrada.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/MenuPrincipal.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/TelaCliente.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/TelaCrud.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/TelaFarmaceutico.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/TelaMedicamento.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/TelaMedico.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/TelaReceita.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/visao/TelaVenda.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Crud\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;gabixcosta-dev&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/gabixcosta-dev/Projeto-FarmaSmart.git&quot;,\r\n    &quot;accountId&quot;: &quot;e5c368d3-90ad-48f7-a769-c54d16441880&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6,\r\n  &quot;fromUser&quot;: false\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3Jm7bHSnneX8AsCnpmUTrD4eoYI\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,\r\n    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;Crud&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main&quot;,\r\n    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;\r\n  }\r\n}</component>\r\n  <component name=\"Push.Settings\">\r\n    <force-push-targets>\r\n      <force-push-target remote-path=\"origin\" branch=\"Crud\" />\r\n    </force-push-targets>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2609e78f-da8d-4ee7-b911-93a0de496c0f\" name=\"Changes\" comment=\"\" />\r\n      <created>1790254462725</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1790254462725</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"removendo pastas duplicadas\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"removendo pastas duplicadas\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 74ea5a80838d9acf2678c66a1f417cba546d51aa)
++++ b/.idea/workspace.xml	(date 1794162260521)
+@@ -1,61 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="removendo pastas duplicadas">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Farmaceutico.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/FormaPagamento.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ItemReceita.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ItemVenda.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Medicamento.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/MedicamentoComum.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/MedicamentoControlado.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/MedicamentoGenerico.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Medico.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/NivelRisco.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Receita.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/StatusValidacao.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/StatusVenda.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/TipoReceita.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ValidacaoSanitaria.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Venda.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/ClienteRepositorio.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/ClienteRepositorioMemoria.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/FarmaceuticoRepositorioMemoria.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicamentoRepositorio.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicamentoRepositorioMemoria.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/MedicoRepositorioMemoria.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/ReceitaRepositorio.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/ReceitaRepositorioMemoria.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/Repositorio.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/RepositorioMemoria.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/VendaRepositorio.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/repositorio/VendaRepositorioMemoria.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/ClienteServicoImpl.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/EntidadeNaoEncontradaException.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/FarmaceuticoServicoImpl.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/MedicamentoServico.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/MedicamentoServicoImpl.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/MedicoServicoImpl.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/ReceitaServicoImpl.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/RegraDeNegocioException.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/Servico.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/ServicoBase.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/VendaServico.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/servico/VendaServicoImpl.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/Entrada.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/MenuPrincipal.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/TelaCliente.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/TelaCrud.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/TelaFarmaceutico.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/TelaMedicamento.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/TelaMedico.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/TelaReceita.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/visao/TelaVenda.java" beforeDir="false" />
+-    </list>
++    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="att" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -97,22 +46,21 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;Crud&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main&quot;,
+-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Application.Main.executor": "Run",
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
++    "codeWithMe.voiceChat.enabledByDefault": "false",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/gabri/OneDrive/Área de Trabalho/Projeto-FarmaSmart-main",
++    "node.js.detected.package.jshint": "true",
++    "node.js.selected.package.jshint": "",
++    "nodejs_package_manager_path": "npm"
+   }
+-}</component>
++}]]></component>
+   <component name="Push.Settings">
+     <force-push-targets>
+       <force-push-target remote-path="origin" branch="Crud" />
