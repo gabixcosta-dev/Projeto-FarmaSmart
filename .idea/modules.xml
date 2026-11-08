@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Projeto-FarmaSmart-main.iml" filepath="$PROJECT_DIR$/Projeto-FarmaSmart-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projeto-FarmaSmart/farmasmart.iml" filepath="$PROJECT_DIR$/Projeto-FarmaSmart/farmasmart.iml" />
     </modules>
   </component>
 </project>
