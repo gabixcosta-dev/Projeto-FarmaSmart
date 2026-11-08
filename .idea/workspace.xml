@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="removendo pastas duplicadas">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2609e78f-da8d-4ee7-b911-93a0de496c0f" name="Changes" comment="telass" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removendo pastas duplicadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="removendo pastas duplicadas" />
+    <MESSAGE value="telass" />
+    <option name="LAST_COMMIT_MESSAGE" value="telass" />
   </component>
 </project>
