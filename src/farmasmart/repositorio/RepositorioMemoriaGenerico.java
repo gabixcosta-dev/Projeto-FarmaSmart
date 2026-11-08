@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Optional;
 
 
-public abstract class RepositorioMemoria<T, ID> implements Repositorio<T, ID> {
+public abstract class RepositorioMemoriaGenerico<T, ID> implements Repositorio<T, ID> {
 
     protected final Map<ID, T> dados = new LinkedHashMap<>();
 

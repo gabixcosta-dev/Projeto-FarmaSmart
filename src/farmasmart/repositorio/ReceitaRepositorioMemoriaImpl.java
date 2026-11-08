@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 import farmasmart.Receita;
 
-public class ReceitaRepositorioMemoria extends RepositorioMemoria<Receita, Long>
+public class ReceitaRepositorioMemoriaImpl extends RepositorioMemoriaGenerico<Receita, Long>
         implements ReceitaRepositorio {
 
     @Override

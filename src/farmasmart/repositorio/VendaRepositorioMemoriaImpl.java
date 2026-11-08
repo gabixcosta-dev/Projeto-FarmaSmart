@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import farmasmart.Medicamento;
 import farmasmart.Venda;
 
-public class VendaRepositorioMemoria extends RepositorioMemoria<Venda, String>
+public class VendaRepositorioMemoriaImpl extends RepositorioMemoriaGenerico<Venda, String>
         implements VendaRepositorio {
 
     @Override

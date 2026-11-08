@@ -29,12 +29,14 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.Dialog;
 import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.VBox;
@@ -63,6 +65,8 @@ public class FarmaSmartController {
     private TextField searchField;
     private Label resultLabel;
     private Label feedbackLabel;
+    private Button expiringButton;
+    private Button backFromExpiringButton;
     private List<?> sourceOverride;
     private Venda activeSale;
 
@@ -124,46 +128,67 @@ public class FarmaSmartController {
         activeSection = null;
         activeAdapter = null;
         sourceOverride = null;
+        contentArea.setAlignment(javafx.geometry.Pos.CENTER);
+        if (!contentArea.getStyleClass().contains("entry-screen")) {
+            contentArea.getStyleClass().add("entry-screen");
+        }
         contentArea.getChildren().clear();
 
         Label eyebrow = new Label("PAINEL DE CONTROLE");
-        eyebrow.getStyleClass().add("page-subtitle");
+        eyebrow.getStyleClass().add("dashboard-eyebrow");
         Label title = new Label("FARMASMART");
         title.getStyleClass().add("dashboard-brand");
+        title.setMaxWidth(Region.USE_PREF_SIZE);
         Region brandAccent = new Region();
         brandAccent.getStyleClass().add("brand-accent");
         Label copy = new Label("Gestão farmacêutica inteligente: acompanhe seus cadastros e acesse cada área em um só lugar.");
         copy.getStyleClass().add("hero-copy");
+        copy.setWrapText(true);
+        copy.setMaxWidth(680);
         VBox hero = new VBox(12, eyebrow, title, brandAccent, copy);
+        hero.setAlignment(javafx.geometry.Pos.CENTER);
+        hero.setMaxWidth(Double.MAX_VALUE);
         hero.getStyleClass().add("hero-card");
 
-        HBox cards = new HBox(14);
-        cards.getChildren().addAll(
-                statCard("MEDICAMENTOS", count(Section.MEDICAMENTOS), "No catálogo"),
-                statCard("CLIENTES", count(Section.CLIENTES), "Pacientes cadastrados"),
-                statCard("RECEITAS", count(Section.RECEITAS), "Prescrições registradas"),
-                statCard("VENDAS", count(Section.VENDAS), "Operações registradas"));
-        cards.getChildren().forEach(node -> HBox.setHgrow(node, Priority.ALWAYS));
-
-        Label quickTitle = new Label("Acesso rápido");
-        quickTitle.getStyleClass().add("page-title");
-        HBox quickActions = new HBox(10,
+        GridPane quickActions = new GridPane();
+        quickActions.setAlignment(javafx.geometry.Pos.CENTER);
+        quickActions.setMaxWidth(Double.MAX_VALUE);
+        quickActions.setHgap(18);
+        quickActions.setVgap(18);
+        for (int i = 0; i < 3; i++) {
+            ColumnConstraints column = new ColumnConstraints();
+            column.setPercentWidth(100.0 / 3);
+            column.setHgrow(Priority.ALWAYS);
+            quickActions.getColumnConstraints().add(column);
+        }
+        Button[] destinations = {
                 dashboardButton("▦  Medicamentos", this::showMedicamentos),
+                dashboardButton("▤  Receitas", this::showReceitas),
                 dashboardButton("⚕  Médicos", this::showMedicos),
-                dashboardButton("♙  Clientes", this::showClientes),
                 dashboardButton("✚  Farmacêuticos", this::showFarmaceuticos),
-                dashboardButton("▣  Vendas", this::showVendas));
-        VBox quickPanel = new VBox(12, quickTitle, quickActions);
+                dashboardButton("▣  Vendas", this::showVendas),
+                dashboardButton("♙  Clientes", this::showClientes)
+        };
+        for (int i = 0; i < destinations.length; i++) {
+            GridPane.setHgrow(destinations[i], Priority.ALWAYS);
+            quickActions.add(destinations[i], i % 3, i / 3);
+        }
+        VBox quickPanel = new VBox(12, quickActions);
+        quickPanel.setAlignment(javafx.geometry.Pos.CENTER);
         quickPanel.getStyleClass().add("panel");
-        quickPanel.setPadding(new javafx.geometry.Insets(20));
-        contentArea.getChildren().addAll(hero, cards, quickPanel);
-        VBox.setVgrow(quickPanel, Priority.ALWAYS);
+        quickPanel.getStyleClass().add("entry-actions-panel");
+        quickPanel.setPadding(new javafx.geometry.Insets(30));
+        VBox entryContent = new VBox(18, hero, quickPanel);
+        entryContent.setAlignment(javafx.geometry.Pos.CENTER);
+        entryContent.setPrefWidth(1200);
+        entryContent.setMaxWidth(1200);
+        contentArea.getChildren().add(entryContent);
     }
 
     private Button dashboardButton(String text, Runnable action) {
         Button button = button(text, action, "dashboard-link");
         button.setMaxWidth(Double.MAX_VALUE);
-        HBox.setHgrow(button, Priority.ALWAYS);
+        button.setMinHeight(86);
         return button;
     }
 
@@ -190,6 +215,10 @@ public class FarmaSmartController {
         activeAdapter = adapters.get(section);
         sourceOverride = null;
         activeSale = null;
+        contentArea.setAlignment(javafx.geometry.Pos.TOP_LEFT);
+        contentArea.getStyleClass().remove("entry-screen");
+        expiringButton = null;
+        backFromExpiringButton = null;
         if (activeAdapter == null) {
             showDashboard();
             return;
@@ -204,6 +233,7 @@ public class FarmaSmartController {
 
         HBox actions = new HBox(9);
         actions.setAlignment(javafx.geometry.Pos.CENTER_LEFT);
+        actions.getChildren().add(button("← Tela inicial", this::showDashboard, "secondary-button"));
         Button add = button("+ Novo cadastro", this::createRecord, "primary-button");
         Button edit = button("Editar selecionado", this::updateRecord, "secondary-button");
         Button delete = button("Excluir", this::deleteRecord, "danger-button");
@@ -211,7 +241,12 @@ public class FarmaSmartController {
         edit.setDisable(!activeAdapter.updatable);
 
         if (section == Section.MEDICAMENTOS) {
-            actions.getChildren().add(button("Próximos do vencimento", this::showExpiring, "green-button"));
+            expiringButton = button("Próximos do vencimento", this::showExpiring, "green-button");
+            backFromExpiringButton = button("← Voltar aos medicamentos",
+                    () -> showSection(Section.MEDICAMENTOS), "secondary-button");
+            backFromExpiringButton.setVisible(false);
+            backFromExpiringButton.setManaged(false);
+            actions.getChildren().addAll(expiringButton, backFromExpiringButton);
             actions.getChildren().add(button("Registrar validação", this::registerValidation, "secondary-button"));
         } else if (section == Section.VENDAS) {
             add.setText("+ Abrir venda");
@@ -322,6 +357,10 @@ public class FarmaSmartController {
         withErrors(() -> {
             sourceOverride = ((MedicamentoServico) activeAdapter.service).proximosDoVencimento(60);
             refreshRows();
+            expiringButton.setVisible(false);
+            expiringButton.setManaged(false);
+            backFromExpiringButton.setVisible(true);
+            backFromExpiringButton.setManaged(true);
             feedback("Exibindo medicamentos que vencem nos próximos 60 dias.");
         });
     }
@@ -812,9 +851,18 @@ public class FarmaSmartController {
         own(dialog);
         ButtonType save = new ButtonType("Salvar", ButtonBar.ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().addAll(save, ButtonType.CANCEL);
-        dialog.getDialogPane().setContent(form);
+        ScrollPane formScroller = new ScrollPane(form);
+        formScroller.setFitToWidth(true);
+        formScroller.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
+        formScroller.setPrefViewportHeight(420);
+        formScroller.setMinViewportHeight(260);
+        dialog.getDialogPane().setContent(formScroller);
+        dialog.getDialogPane().setPrefWidth(560);
         AtomicReference<T> result = new AtomicReference<>();
         Button saveButton = (Button) dialog.getDialogPane().lookupButton(save);
+        saveButton.getStyleClass().add("primary-button");
+        Button cancelButton = (Button) dialog.getDialogPane().lookupButton(ButtonType.CANCEL);
+        cancelButton.getStyleClass().add("secondary-button");
         saveButton.addEventFilter(ActionEvent.ACTION, event -> {
             try {
                 result.set(submit.get());
@@ -902,23 +950,6 @@ public class FarmaSmartController {
         button.getStyleClass().add(styleClass);
         button.setOnAction(event -> action.run());
         return button;
-    }
-
-    private VBox statCard(String title, String value, String subtitle) {
-        Label titleLabel = new Label(title);
-        titleLabel.getStyleClass().add("stat-label");
-        Label valueLabel = new Label(value);
-        valueLabel.getStyleClass().add("stat-value");
-        Label subtitleLabel = new Label(subtitle);
-        subtitleLabel.getStyleClass().add("page-subtitle");
-        VBox card = new VBox(8, titleLabel, valueLabel, subtitleLabel);
-        card.getStyleClass().add("stat-card");
-        return card;
-    }
-
-    private String count(Section section) {
-        Adapter<?, ?> adapter = adapters.get(section);
-        return adapter == null ? "0" : String.valueOf(adapter.list().size());
     }
 
     private String money(Object value) {

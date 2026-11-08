@@ -2,7 +2,7 @@ package farmasmart.repositorio;
 
 import farmasmart.Medico;
 
-public class MedicoRepositorioMemoria extends RepositorioMemoria<Medico, String> {
+public class MedicoRepositorioMemoriaImpl extends RepositorioMemoriaGenerico<Medico, String> {
 
     @Override
     protected String obterId(Medico m) {

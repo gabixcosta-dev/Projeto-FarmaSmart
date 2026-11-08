@@ -4,12 +4,12 @@ import java.util.List;
 
 import farmasmart.repositorio.Repositorio;
 
-public abstract class ServicoBase<T, ID> implements Servico<T, ID> {
+public abstract class ServicoBaseGenerico<T, ID> implements Servico<T, ID> {
 
     protected final Repositorio<T, ID> repositorio;
     private final String nomeEntidade;
 
-    protected ServicoBase(Repositorio<T, ID> repositorio, String nomeEntidade) {
+    protected ServicoBaseGenerico(Repositorio<T, ID> repositorio, String nomeEntidade) {
         this.repositorio = repositorio;
         this.nomeEntidade = nomeEntidade;
     }

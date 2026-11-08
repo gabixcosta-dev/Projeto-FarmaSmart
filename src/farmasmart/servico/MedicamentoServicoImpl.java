@@ -11,7 +11,7 @@ import farmasmart.StatusValidacao;
 import farmasmart.repositorio.MedicamentoRepositorio;
 import farmasmart.repositorio.VendaRepositorio;
 
-public class MedicamentoServicoImpl extends ServicoBase<Medicamento, String> implements MedicamentoServico {
+public class MedicamentoServicoImpl extends ServicoBaseGenerico<Medicamento, String> implements MedicamentoServico {
 
     private final MedicamentoRepositorio medicamentos;
     private final VendaRepositorio vendas;

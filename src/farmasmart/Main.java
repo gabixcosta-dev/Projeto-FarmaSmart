@@ -1,11 +1,11 @@
 package farmasmart;
 
-import farmasmart.repositorio.ClienteRepositorioMemoria;
-import farmasmart.repositorio.FarmaceuticoRepositorioMemoria;
-import farmasmart.repositorio.MedicamentoRepositorioMemoria;
-import farmasmart.repositorio.MedicoRepositorioMemoria;
-import farmasmart.repositorio.ReceitaRepositorioMemoria;
-import farmasmart.repositorio.VendaRepositorioMemoria;
+import farmasmart.repositorio.ClienteRepositorioMemoriaImpl;
+import farmasmart.repositorio.FarmaceuticoRepositorioMemoriaImpl;
+import farmasmart.repositorio.MedicamentoRepositorioMemoriaImpl;
+import farmasmart.repositorio.MedicoRepositorioMemoriaImpl;
+import farmasmart.repositorio.ReceitaRepositorioMemoriaImpl;
+import farmasmart.repositorio.VendaRepositorioMemoriaImpl;
 import farmasmart.servico.ClienteServicoImpl;
 import farmasmart.servico.FarmaceuticoServicoImpl;
 import farmasmart.servico.MedicamentoServicoImpl;
@@ -23,12 +23,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        MedicamentoRepositorioMemoria repMedicamentos = new MedicamentoRepositorioMemoria();
-        ClienteRepositorioMemoria repClientes = new ClienteRepositorioMemoria();
-        MedicoRepositorioMemoria repMedicos = new MedicoRepositorioMemoria();
-        FarmaceuticoRepositorioMemoria repFarmaceuticos = new FarmaceuticoRepositorioMemoria();
-        ReceitaRepositorioMemoria repReceitas = new ReceitaRepositorioMemoria();
-        VendaRepositorioMemoria repVendas = new VendaRepositorioMemoria();
+        MedicamentoRepositorioMemoriaImpl repMedicamentos = new MedicamentoRepositorioMemoriaImpl();
+        ClienteRepositorioMemoriaImpl repClientes = new ClienteRepositorioMemoriaImpl();
+        MedicoRepositorioMemoriaImpl repMedicos = new MedicoRepositorioMemoriaImpl();
+        FarmaceuticoRepositorioMemoriaImpl repFarmaceuticos = new FarmaceuticoRepositorioMemoriaImpl();
+        ReceitaRepositorioMemoriaImpl repReceitas = new ReceitaRepositorioMemoriaImpl();
+        VendaRepositorioMemoriaImpl repVendas = new VendaRepositorioMemoriaImpl();
 
         MedicamentoServicoImpl srvMedicamentos = new MedicamentoServicoImpl(repMedicamentos, repVendas);
         ClienteServicoImpl srvClientes = new ClienteServicoImpl(repClientes, repVendas, repReceitas);

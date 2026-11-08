@@ -12,7 +12,7 @@ import farmasmart.Venda;
 import farmasmart.repositorio.Repositorio;
 import farmasmart.repositorio.VendaRepositorio;
 
-public class VendaServicoImpl extends ServicoBase<Venda, String> implements VendaServico {
+public class VendaServicoImpl extends ServicoBaseGenerico<Venda, String> implements VendaServico {
 
     private final VendaRepositorio vendas;
     private final Repositorio<Farmaceutico, String> farmaceuticos;

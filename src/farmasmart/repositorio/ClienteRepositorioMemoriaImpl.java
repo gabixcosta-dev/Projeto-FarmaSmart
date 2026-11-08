@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import farmasmart.Cliente;
 
-public class ClienteRepositorioMemoria extends RepositorioMemoria<Cliente, String>
+public class ClienteRepositorioMemoriaImpl extends RepositorioMemoriaGenerico<Cliente, String>
         implements ClienteRepositorio {
 
     @Override
