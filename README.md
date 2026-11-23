@@ -3,6 +3,7 @@
 ## Descrição 
 
 Sistema para gestão de uma farmácia/drogaria, controlando o catálogo de medicamentos, receitas médicas, clientes e vendas no balcão. O sistema deve diferenciar medicamentos comuns, genéricos e controlados, exigindo receita válida para a venda destes últimos, além de impedir a venda de itens vencidos.
+
 Como diferencial, o cadastro de novos medicamentos é validado contra uma base pública de dados abertos de medicamentos (bula/princípio ativo), garantindo que apenas produtos com informação sanitária confirmada em fonte oficial sejam comercializados.
 
 
