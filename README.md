@@ -1,12 +1,13 @@
 # Sistema FarmaSmart
 
-## Executar a aplicação
+## Descrição 
 
 Sistema para gestão de uma farmácia/drogaria, controlando o catálogo de medicamentos, receitas médicas, clientes e vendas no balcão. O sistema deve diferenciar medicamentos comuns, genéricos e controlados, exigindo receita válida para a venda destes últimos, além de impedir a venda de itens vencidos.
-
 Como diferencial, o cadastro de novos medicamentos é validado contra uma base pública de dados abertos de medicamentos (bula/princípio ativo), garantindo que apenas produtos com informação sanitária confirmada em fonte oficial sejam comercializados.
 
-Nota: a API oficial de dados abertos de medicamentos da ANVISA (via dados.gov.br ou consultas.anvisa.gov.br) hoje exige autenticação/token ou está protegida por proteção anti-robô, o que a torna inviável como integração simples e estável para um projeto de 2º período. Por isso, a sugestão abaixo usa a openFDA (base de dados aberta de medicamentos da FDA/EUA), que é pública, gratuita e não exige chave — mantendo o mesmo objetivo pedagógico de validar o cadastro contra uma fonte de dados real. Caso surja uma alternativa nacional estável e sem autenticação, ela pode substituir a openFDA sem alterar a estrutura dos requisitos.
+
+> **Nota:** a API oficial de dados abertos de medicamentos da ANVISA (via `dados.gov.br` ou `consultas.anvisa.gov.br`) hoje exige autenticação/token ou está protegida por proteção anti-robô, o que a torna inviável como integração simples e estável para um projeto de 2º período. Por isso, a sugestão abaixo usa a **openFDA** (base de dados aberta de medicamentos da FDA/EUA), que é pública, gratuita e não exige chave — mantendo o mesmo objetivo pedagógico de validar o cadastro contra uma fonte de dados real. Caso surja uma alternativa nacional estável e sem autenticação, ela pode substituir a openFDA sem alterar a estrutura dos requisitos.
+
 
 ## Requisitos Funcionais
 
