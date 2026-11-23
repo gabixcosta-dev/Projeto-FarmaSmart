@@ -1,5 +1,8 @@
 # Compiled class file
 *.class
+/out/
+
+
 
 # Log file
 *.log
@@ -22,3 +25,16 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Dados locais do FarmaSmart (arquivo de persistência)
+dados/
+
+# Configurações locais da IDE
+.idea/
+*.iml
+
+# Arquivos de compilação Maven
+target/
+
+# Arquivos temporários e cópias de segurança
+shelf/

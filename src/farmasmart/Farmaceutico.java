@@ -2,6 +2,8 @@ package farmasmart;
 
 public class Farmaceutico extends Pessoa {
 
+  private static final long serialVersionUID = 1L;
+
   private String crf;
 
   public Farmaceutico(String id, String nome, String cpf) {

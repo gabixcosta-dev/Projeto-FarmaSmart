@@ -3,7 +3,9 @@ package farmasmart;
 import java.time.LocalDate;
  
 public class MedicamentoControlado extends Medicamento {
- 
+
+    private static final long serialVersionUID = 1L;
+
     private NivelRisco nivelRisco;
  
     public MedicamentoControlado(String id, String nome, String principioAtivo, double preco,

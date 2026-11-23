@@ -1,9 +1,12 @@
 package farmasmart;
  
+import java.io.Serializable;
 import java.time.LocalDate;
  
-public abstract class Medicamento {
- 
+public abstract class Medicamento implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     protected String id;
     protected String nome;
     protected String principioAtivo;

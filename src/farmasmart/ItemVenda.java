@@ -1,9 +1,12 @@
 package farmasmart;
  
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-class ItemVenda {
- 
+class ItemVenda implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     private Medicamento medicamento;
     private int quantidade;
     private BigDecimal precoUnitario;

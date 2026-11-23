@@ -1,9 +1,12 @@
 package farmasmart;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class ValidacaoSanitaria {
-  
+public class ValidacaoSanitaria implements Serializable {
+
+  private static final long serialVersionUID = 1L;
+
   StatusValidacao status;
   String orgaoValidador;
   LocalDateTime dataValidacao;

@@ -7,7 +7,7 @@ import farmasmart.repositorio.ClienteRepositorio;
 import farmasmart.repositorio.ReceitaRepositorio;
 import farmasmart.repositorio.VendaRepositorio;
 
-public class ClienteServicoImpl extends ServicoBase<Cliente, String> {
+public class ClienteServicoImpl extends ServicoBaseGenerico<Cliente, String> {
 
     private final ClienteRepositorio clientes;
     private final VendaRepositorio vendas;
